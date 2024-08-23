@@ -1,0 +1,1 @@
+cd infrastructure\postgres && docker compose up && cd ../..
