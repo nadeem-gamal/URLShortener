@@ -8,7 +8,7 @@ info:
 
     Some useful links:
     - [The URL Shortener repository](https://github.com/nadeem-gamal/URLShortener)
-    - [The source API definition for the URL Shortener](https://github.com/nadeem-gamal/URLShortener/blob/master/docs/API/API.yaml)
+    - [The source API definition for the URL Shortener](https://github.com/nadeem-gamal/URLShortener/blob/master/API/API.yaml)
   termsOfService: http://swagger.io/terms/
   contact:
     email: nadeem.ng2@gmail.com
