@@ -25,7 +25,7 @@ cache.init_app(app)
 
 db_username = os.environ['URL_POSTGRES_USER']
 db_password = os.environ['URL_POSTGRES_PASSWORD']
-app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql+psycopg2://{db_username}:{db_password}@<IP>:5432/test_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql+psycopg2://{db_username}:{db_password}@postgres:5432/test_db'
 db = SQLAlchemy(app)
 
 
