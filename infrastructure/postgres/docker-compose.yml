@@ -11,6 +11,7 @@ services:
       POSTGRES_DB: test_db
     volumes:
       - ./postgres:/var/lib/postgresql/data
+      - ./create-db.sql:/docker-entrypoint-initdb.d/create_database.sql
 
   pgadmin:
     container_name: pgadmin4_container
